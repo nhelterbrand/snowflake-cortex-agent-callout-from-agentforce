@@ -1,0 +1,28 @@
+{
+  "required" : [ "message" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "message" : {
+      "title" : "Message",
+      "description" : "Message content to send to Cortex",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "parentMessageId" : {
+      "title" : "Parent Message ID",
+      "description" : "ID of the parent message in the thread",
+      "lightning:type" : "lightning__integerType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "threadId" : {
+      "title" : "Thread ID",
+      "description" : "ID of the Cortex thread",
+      "lightning:type" : "lightning__integerType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

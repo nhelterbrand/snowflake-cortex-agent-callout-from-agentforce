@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Topic calls the cortex action and processes questions regarding support tickets</description>
+    <developerName>Snowflake_Support_Tickets</developerName>
+    <genAiFunctions>
+        <functionName>Call_Cortex_Agent_Trial</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the user wants to summarize tickets, always group them by some attribute</description>
+        <developerName>instruction_0_1762552677369</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0_1762552677369</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the user asks to group tickets by an attribute, summarize the description of the tickets too</description>
+        <developerName>instruction_1_1762552677369</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1_1762552677369</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Snowflake Support Tickets</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to supplement support ticket questions with Snowflake Cortex details</scope>
+</GenAiPlugin>
